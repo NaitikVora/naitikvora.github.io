@@ -1,7 +1,5 @@
 # Naitik Vora — personal portfolio
 
-A static, responsive portfolio inspired by the typography and single-page layout of https://tejas-goyal.github.io/. Content belongs to Naitik Vora and comes from the existing portfolio.
-
 ## Preview
 
 Run `python3 -m http.server 8000` and open http://localhost:8000.
