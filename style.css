@@ -38,3 +38,8 @@ footer p { margin:0; }
 .role-location { color:var(--muted); font-size:12px; margin:2px 0 10px; }
 .role-details { padding-left:18px; margin:0 0 8px; font-size:14px; }
 .role-details li { margin-bottom:10px; }
+
+.profile-header { display:flex; justify-content:space-between; align-items:flex-start; gap:30px; }
+.header-text { flex:1; min-width:0; }
+.avatar { display:block; width:132px; height:132px; border-radius:14px; object-fit:cover; object-position:center; flex-shrink:0; }
+@media(max-width:560px) { .profile-header { flex-direction:column-reverse; gap:18px; } .avatar { width:96px; height:96px; } }
